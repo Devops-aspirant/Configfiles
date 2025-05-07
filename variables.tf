@@ -4,7 +4,7 @@ provider "azurerm" {
 
 module "vm" {
   source              = "./modules/vm"
-  vm_name             = "myVM02"
+  vm_name             = "myVM03"
   location            = "East US"
   resource_group_name = "rg-vm-demo"
   subnet_id           = "/subscriptions/<sub_id>/resourceGroups/rg-network/providers/Microsoft.Network/virtualNetworks/vnet01/subnets/subnet1"
